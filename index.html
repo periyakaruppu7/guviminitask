@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tasks</title>
+</head>
+<body>
+  <!-- 1. Fixed HTML snippet -->
+  <h1 lang="en">Guvi Geek Network</h1>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+  <div>Guvi Geek Network</div>
+
+  <!-- 2. Tried below one -->
+  <h1 lang="en">Guvi Geek Network</h1>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+  <div>Guvi Geek Network</div>
+
+  <!-- 3. Contact us form -->
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- 4. Use certain HTML elements to display -->
+  <h2>Programming Language</h2>
+  <ul>
+    <li>JavaScript
+      <ol>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li>
+      </ol>
+    </li>
+    <li>Python
+      <ol>
+        <li>Django Framework</li>
+        <li>Flask Framework</li>
+      </ol>
+    </li>
+    <li>Java
+      <ol>
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+      </ol>
+    </li>
+  </ul>
+  <h2>Database</h2>
+  <ul>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Cassandra</li>
+  </ul>
+
+  <!-- 5. Create an element to open https://google.com in separate new tab -->
+  <a href="https://google.com" target="_blank">Open Google</a>
+
+  <!-- 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+  <form>
+    <label>Employee Type:</label><br>
+    <input type="radio" id="salaried" name="employeeType" value="salaried">
+    <label for="salaried">Salaried</label><br>
+    <input type="radio" id="ownBusiness" name="employeeType" value="ownBusiness">
+    <label for="ownBusiness">Own Business</label><br>
+  </form>
+
+  <!-- 7. Design form shown in the link[](http://vec-cit.info/cit040/formguide/card_0.png) -->
+  <form>
+    <label for="cardNumber">Card Number:</label><br>
+    <input type="text" id="cardNumber" name="cardNumber" required><br>
+    <label for="expiryDate">Expiry Date:</label><br>
+    <input type="month" id="expiryDate" name="expiryDate" required><br>
+    <label for="cvv">CVV:</label><br>
+    <input type="text" id="cvv" name="cvv" required><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- 8. Use the table tag to design given image Click here -->
+  <table border="1">
+    <tr>
+      <td>Click here</td>
+    </tr>
+  </table>
+
+  <!-- 9. Write HTML input tags snippet to show default values for all form elements -->
+  <form>
+    <label for="nameDef">Name:</label><br>
+    <input type="text" id="nameDef" name="nameDef" value="John Doe" required><br>
+    <label for="emailDef">Email:</label><br>
+    <input type="email" id="emailDef" name="emailDef" value="john@example.com" required><br>
+    <label for="messageDef">Message:</label><br>
+    <textarea id="messageDef" name="messageDef" required>Default message</textarea><br>
+    <input type="radio" id="maleDef" name="gender" value="male" checked>
+    <label for="maleDef">Male</label><br>
+    <input type="radio" id="femaleDef" name="gender" value="female">
+    <label for="femaleDef">Female</label><br>
+    <input type="checkbox" id="agreeDef" name="agreeDef" value="yes" checked>
+    <label for="agreeDef">I agree</label><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- 10. In your HTML page add the below line and Highlight it without using any CSS -->
+  <p><mark>HTML & CSS is awesome</mark></p>
+
+  <!-- 11. Create an HTML page which should contain all types of input elements -->
+  <form>
+    <label for="textInput">Text:</label><br>
+    <input type="text" id="textInput" name="textInput"><br>
+    <label for="passwordInput">Password:</label><br>
+    <input type="password" id="passwordInput" name="passwordInput"><br>
+    <label for="emailInput">Email:</label><br>
+    <input type="email" id="emailInput" name="emailInput"><br>
+    <label for="numberInput">Number:</label><br>
+    <input type="number" id="numberInput" name="numberInput"><br>
+    <label for="dateInput">Date:</label><br>
+    <input type="date" id="dateInput" name="dateInput"><br>
+    <label for="timeInput">Time:</label><br>
+    <input type="time" id="timeInput" name="timeInput"><br>
+    <label for="fileInput">File:</label><br>
+    <input type="file" id="fileInput" name="fileInput"><br>
+    <label for="radioInput">Radio:</label><br>
+    <input type="radio" id="radioInput" name="radioGroup" value="yes"><br>
+    <label for="checkboxInput">Checkbox:</label><br>
+    <input type="checkbox" id="checkboxInput" name="checkboxInput"><br>
+    <label for="textareaInput">Textarea:</label><br>
+    <textarea id="textareaInput" name="textareaInput"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
